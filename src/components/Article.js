@@ -1,11 +1,8 @@
 import React from "react";
 
-function Article() {
-  return (
-    <div>
-      {/* please pass this test */}
-    </div>
-  );
+function Article(props) {
+  return <h1>please pass this test</h1>;
+
 }
 
 export default Article;
